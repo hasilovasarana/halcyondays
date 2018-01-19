@@ -1,0 +1,399 @@
+html, body {
+	margin:0px;
+	padding:0px;
+	min-width: 1316px;
+}
+
+ * .clear {
+	clear:both;
+}
+
+* .container-fluid {
+
+	padding-left: -15px !important;
+	padding-right: -15px !important;
+}
+
+ * .fullWidth {
+	width:100%;
+}
+
+
+/*HALCYON DAYS*/
+
+
+#firstSection {	
+	background-image: url("../images/hero-bg.jpg");	
+	background-size: cover;
+	width: auto;	
+	height: auto;
+    text-align: center;
+    padding:70px 0px 300px 0px;
+	
+}
+
+#firstSection .title {
+	
+	margin-top:0px;
+}
+
+#firstSection h1 {	
+	letter-spacing:15px;
+	margin-top: 100px;
+	padding-top: 100px;
+
+}
+
+#firstSection p {
+	font-size:15px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+#firstSection button {
+	background:green;
+	padding:20px;	
+	border-radius:10px;
+	width:300px;
+	margin-top: 40px;
+
+}
+#firstSection button:hover{
+	opacity: 0.8;
+}
+
+
+/*A CRATIVE PORTFOLIO TEMPLATE*/
+
+
+#secondSection {
+	text-align:center;
+	background:lightblue;
+	width:100%;
+	padding-top:1px;
+
+}
+
+#secondSection h3 {
+	letter-spacing:1px;
+	font-size:20px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+
+}
+
+#secondSection p {
+	font-size:15px;
+	text-align:center;
+	padding: 30px 100px;
+	margin: 0px 100px 50px 100px;
+}
+
+
+
+/*LOVE WHAT YOU DO YOU'LL DO IT WELL*/
+
+
+
+#thirdSection {
+	text-align:center;
+	background:#AFFF33;
+	width:100%;	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: table;
+}
+
+.normalWidth {
+	width:1000px;
+	margin:0 auto;
+}
+ 
+.row#thirdSection {
+	/*width:calc(33.33% - 4px);*/
+	background:#AFFF33;
+	/*float:left;*/
+/*	border:none;*/
+	padding-bottom:0px;
+}
+
+.row#thirdSection  h4 {
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#thirdSection  p {
+	text-align:center;
+	padding:10px;	
+}
+
+
+/*MOBILE AND SLIDE*/
+
+#fourthSection{
+  display: inline;
+ 
+
+}
+
+.normalWidth {
+	width:1000px;
+	margin:0 auto;
+}
+
+#fourthSection h4 {
+	padding-top: 100px;
+	
+}
+
+#fourthSection p {
+	margin: 30px;
+}
+
+
+/*I GOT 99 PROBLEMS*/
+
+
+#fifthSection {
+	margin-top: 0px;
+	width:100%;
+	height:300px;	
+  /*  display: inline-block;*/
+    padding-top:1px;
+    background-image: url("../images/plants-bg.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.iGot99Problems {	
+	padding:50px 0px;
+}
+
+.iGot99Problems {
+	color: white;	
+	
+}
+
+.iGot99Problems h1{
+	letter-spacing: 10px;
+}
+
+.iGot99Problems h3{
+	word-spacing: 10px;
+	letter-spacing: 3px;
+}
+
+/*PHOTO SLIDE*/
+
+
+#sixthSection {
+	width:100%;
+	height:400px;
+	display:inline-block;	
+	margin-top: 100px;
+	margin-bottom: 100px;	
+
+}
+
+#sixthSection .row  {
+	text-align: center;
+	
+}
+
+#sixthSection img:hover {
+	opacity: 0.5;
+
+}
+
+#sixthSection h5 {
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+/*IGNITE YOUR PASSION*/
+
+
+#seventhSection {
+	width:100%;
+	height:200px;
+	background-color:maroon;
+	border: 1px solid black;
+	padding: 20px;
+	margin-top:30px;
+	 
+}
+
+#seventhSection button {    
+    text-align: center;
+    background:maroon;
+    padding-right: 50px;
+    padding-left: 50px;
+    height:50px;
+    border:1px solid white; 
+    margin-top: 50px;
+}
+
+#seventhSection button a {
+	text-decoration: none;
+}
+
+#seventhSection a:hover {
+	text-decoration: none;
+	color:maroon;
+}
+
+
+/*WE'RE A TEAM THAT ADORE WHAT WE DO*/
+
+
+#eighthSection {	
+	margin-top: 50px;	
+    width:100%;
+    height: 500px;  
+    background-color:#ffffff; 
+	display: table;
+    
+}
+
+#eighthSection h1 {	
+    font-size:1.5em;
+	color:black;
+	padding-top: 50px;   
+}
+
+#eighthSection .row {	
+	display: inline-block;	
+}
+
+#eighthSection i {
+	margin:10px;
+}
+
+#eigthSection i:hover{
+	color: aqua;
+}
+
+
+/*Telegram*/
+
+
+#ninethSection {
+	width:100%;
+	height:500px;
+	background-image:url("../images/keyboard-bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	padding-top: 50px;
+	text-align: center;	
+	margin-top: 100px;
+
+}
+
+#ninethSection form {
+	margin: 40px;
+}
+
+#ninethSection input {
+
+	padding: 20px 200px 20px 20px;
+	opacity: 0.5;
+	line-height: 5px;
+}
+
+#ninethSection button {
+
+	padding: 15px 20px 15px 20px; 
+}
+
+
+/* DROP US A LINE */
+
+
+#tenthSection {
+    width:100%;
+    height: 600px;
+    position:relative;    
+    background:#6b5524;
+    padding-top: 1px;
+	text-align: center;
+	display: table;
+}
+
+#tenthSection .dropUs {
+ 	margin-top:100px;
+}
+
+#tenthSection img {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+#tenthSection .row {	
+	display: inline-flex;
+}
+
+#tenthSection .col-md-4 {
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	border: 1px solid white;
+	padding: 40px;
+	margin:50px 15px  100px;
+	background: white;
+	
+	
+}
+
+#tenthSection a {
+	text-decoration: none;
+	color: black;
+}
+
+#tenthSection a:hover {
+	color: aqua;
+
+}
+
+/*FOOTER*/
+
+
+#lastSection {
+	width:100%;	
+	background: #242830;
+    padding-top:1px;  
+
+}
+
+#lastSection .footer-left {
+    float:left;
+    padding: 15px;
+
+}
+
+#lastSection a {	
+	text-decoration: none;
+	color: gray;
+	
+}
+
+#lastSection .footer-left a:hover {
+	text-decoration: none;
+	color:maroon;
+
+}
+
+#lastSection .footer-right  {
+	float:right;
+	padding: 15px;
+	
+}
+
+#lastSection .footer-right a:hover {
+    color:maroon;
+    text-decoration: none;
+}
+
